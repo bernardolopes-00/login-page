@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+:root {
+    --bg: #F5F5F5;
+    --bg-login: #FFFFFF;
+    --bg-input: #F4F4F4;
+    --label: #7F7E83;
+    --gray:#474749;
+    --green: #00A551;
+
+    --font: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: var(--font);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-login {
+    width: 40vw;
+}
+
+.banner-login img {
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-login {
+    background-color: var(--bg-login);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 40vw;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #0000001a;
+}
+
+.text-login {
+    text-align: center;
+}
+
+.text-login h1 {
+    color: var(--green);
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.text-login p {
+    color: var(--gray);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: var(--label);
+    font-size: 18px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.label-senha {
+    padding-top: 25px;
+}
+
+input {
+    background-color: var(--bg-input);
+    width: 26vw;
+    height: 45px;
+    border-radius: 12px;
+    padding-left: 25px;
+}
+
+#senha {
+    margin-bottom: 45px;
+}
+
+
+button {
+    background-color: var(--green);
+    color: var(--bg-login);
+    font-size: 18px;
+    width: 250px;
+    height: 47px;
+    margin: 0 auto;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    width: 270px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 6px 0px var(--gray);
+}
+
+p {
+    color: var(--gray);
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45px;
+}
+
+p > a {
+    color: var(--green);
+}

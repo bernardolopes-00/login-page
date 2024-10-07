@@ -1,0 +1,27 @@
+@media (max-width:599px) {
+    .banner-login {
+        display: none;
+    }
+
+    .bg-login {
+        width: 100vw;
+    }
+
+    input {
+        width: 85vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .banner-login {
+        display: none;
+    }
+
+    .bg-login {
+        width: 90vw;
+    }
+
+    input {
+        width: 50vw;
+    }
+}
