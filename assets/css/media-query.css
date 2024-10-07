@@ -3,6 +3,10 @@
         display: none;
     }
 
+    * {
+        overflow-y: hidden;
+    }
+
     .bg-login {
         width: 100vw;
         
