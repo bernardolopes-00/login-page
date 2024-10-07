@@ -5,11 +5,12 @@
 
     .bg-login {
         width: 100vw;
-        height: 55px;
+        
     }
 
     input {
         width: 85vw;
+        height: 57px;
     }
 }
 
